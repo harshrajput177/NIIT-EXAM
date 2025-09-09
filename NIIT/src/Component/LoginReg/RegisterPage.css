@@ -1,0 +1,66 @@
+/* Register Page Styling */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  font-family: "Poppins", sans-serif;
+}
+
+.register-box {
+  background: #fff;
+  padding: 45px 35px;
+  border-radius: 15px;
+  width: 380px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.register-box h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: #333;
+  font-weight: 600;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.register-box input:focus {
+  border-color: #dd2476;
+  outline: none;
+  box-shadow: 0 0 5px rgba(221, 36, 118, 0.4);
+}
+
+.register-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: #dd2476;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.register-box button:hover {
+  background: #b51d62;
+}
+
+.register-info {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+
